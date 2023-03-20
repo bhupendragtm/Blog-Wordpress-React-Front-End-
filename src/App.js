@@ -1,13 +1,13 @@
 import React from 'react';
-import Posts from "././component/Accordian/api";
+import Posts from "././component/Accordian/Accordian";
+import Menus from "././component/menu/menu";
 
 function App() {
   return (
     <>
-     <Posts />
-     {/* <Accordian /> */}
+     <Menus />
+     {/* <Posts /> */}
     </>
   );
 }
-
 export default App;
